@@ -1,0 +1,11 @@
+'ifconfig' params:
+	HWaddr : MAC addr
+	inet : IPv4
+	inet6 : IPv6
+	netmask :Netmask
+	
+'nmcli device show wlo1' params:
+	GENERAL.HWADDR : MAC addr
+	IP4.ADDRESS[1] : IPv4
+	IP4.GATEWAY : Default Gateway
+	IP4.DNS[1] and IP4.DNS[2] : DNS Server

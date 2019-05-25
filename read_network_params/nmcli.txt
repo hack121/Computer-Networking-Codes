@@ -1,0 +1,18 @@
+GENERAL.DEVICE:                         wlo1
+GENERAL.TYPE:                           wifi
+GENERAL.HWADDR:                         F8:28:19:93:08:F5
+GENERAL.MTU:                            1500
+GENERAL.STATE:                          100 (connected)
+GENERAL.CONNECTION:                     Lenovo K6 Power
+GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/10
+IP4.ADDRESS[1]:                         192.168.43.163/24
+IP4.GATEWAY:                            192.168.43.1
+IP4.ROUTE[1]:                           dst = 0.0.0.0/0, nh = 192.168.43.1, mt = 600
+IP4.ROUTE[2]:                           dst = 192.168.43.0/24, nh = 0.0.0.0, mt = 600
+IP4.ROUTE[3]:                           dst = 169.254.0.0/16, nh = 0.0.0.0, mt = 1000
+IP4.DNS[1]:                             192.168.43.1
+IP6.ADDRESS[1]:                         fe80::31f7:6e4:7c73:12f7/64
+IP6.GATEWAY:                            --
+IP6.ROUTE[1]:                           dst = ff00::/8, nh = ::, mt = 256, table=255
+IP6.ROUTE[2]:                           dst = fe80::/64, nh = ::, mt = 256
+IP6.ROUTE[3]:                           dst = fe80::/64, nh = ::, mt = 600
